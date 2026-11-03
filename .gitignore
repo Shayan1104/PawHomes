@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+*/node_modules/
+*/*/node_modules/
+*/*/*/node_modules/
+/.pnp
+.pnp.js
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.env
+
+# Production build outputs
+/build
+/dist
+frontend/build
+Reactapp/frontend/build
+
+# Uploaded user media (prevent committing local test uploads)
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+Reactapp/Backend/backend-server/uploads/*
+!Reactapp/Backend/backend-server/uploads/.gitkeep
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
